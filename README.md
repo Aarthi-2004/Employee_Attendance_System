@@ -251,6 +251,4 @@ attendance
 
 
 
----
 
-If you want, I can also give a **GitHub description, tags, and preview text** to make your project stand out professionally.
