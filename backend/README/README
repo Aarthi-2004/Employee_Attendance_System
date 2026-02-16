@@ -1,1 +1,105 @@
 
+# Employee Attendance System – Backend
+
+The Employee Attendance System is a web-based platform designed to help employees record their attendance and managers track attendance records efficiently. It ensures secure authentication and stores attendance data reliably in a database.
+
+This is the backend application built using Node.js, Express, and MongoDB, which provides APIs for authentication and attendance management.
+
+---
+
+🚀 Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcryptjs
+- dotenv
+
+---
+
+🔐 Core Modules
+
+### 1️⃣ User Management Module
+Handles user-related operations in the system.
+
+- User Registration – Allows employees and managers to create accounts.
+- Password Encryption – Secures passwords using bcrypt hashing.
+- User Data Storage – Stores user details in MongoDB.
+- Role Assignment – Assigns roles such as employee or manager.
+
+---
+
+### 2️⃣ Authentication Module
+Manages secure login and identity verification.
+
+- User Login – Validates email and password.
+- JWT Token Generation – Creates secure tokens after successful login.
+- Token Verification – Protects private routes using middleware.
+- Secure Session Handling – Ensures authenticated API access.
+
+---
+
+### 3️⃣ Authorization Module
+Controls access based on user roles.
+
+- Role-Based Access Control – Restricts manager-only routes.
+- Protected Routes – Ensures only authenticated users can access attendance APIs.
+
+---
+
+### 4️⃣ Attendance Management Module
+Handles attendance tracking and storage.
+
+- Check-In Functionality – Records employee check-in time.
+- Check-Out Functionality – Records check-out time.
+- Attendance Status – Marks present, absent, or late.
+- Attendance History – Retrieves past attendance records.
+- Working Hours Calculation – Calculates total working hours.
+
+---
+
+### 5️⃣ Manager Control Module
+Provides administrative capabilities.
+
+- View All Employees Attendance
+- Filter Attendance by Date or Employee
+- View Team Summary
+- Generate Attendance Reports
+
+---
+
+### 6️⃣ Database Module
+Manages data storage and retrieval.
+
+- MongoDB Integration
+- User Collection
+- Attendance Collection
+- Schema Validation using Mongoose
+
+---
+
+### 7️⃣ API Module
+Provides RESTful endpoints for frontend communication.
+
+- Auth APIs (Register, Login)
+- Attendance APIs (Check-in, Check-out, History)
+- Manager APIs (View All, Reports)
+
+---
+
+### 8️⃣ Security & Middleware Module
+Ensures application security and proper request handling.
+
+- JWT Middleware
+- Password Hashing
+- Error Handling
+- Environment Variable Configuration using dotenv
+
+---
+
+
+
+
+
