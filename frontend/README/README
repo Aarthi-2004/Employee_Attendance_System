@@ -1,1 +1,37 @@
+# Employee Attendance System – Frontend
+
+The Employee Attendance System is a web application that allows employees to mark their daily attendance and managers to monitor team attendance efficiently. It provides secure login, real-time attendance tracking, and dashboard views using a modern web interface.
+
+This is the frontend application built using React, which provides user interfaces for Employees and Managers to interact with the attendance system.
+
+🚀 Tech Stack
+
+- React.js
+- Axios
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- LocalStorage (JWT Storage)
+
+👥 User Roles & Features
+
+👤 Employee
+
+- Login / Register
+- Employee Dashboard
+- Mark Attendance (Check In / Check Out)
+- View Attendance History
+- View Monthly Summary
+- View Profile
+- Logout
+
+🧑‍💼 Manager
+
+- Login
+- Manager Dashboard
+- View All Employees Attendance
+- Filter Attendance by Date or Employee
+- View Team Attendance Summary
+- Export Attendance Reports (CSV)
+- Logout
 
